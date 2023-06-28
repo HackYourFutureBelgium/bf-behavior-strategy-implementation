@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /* console.error
 
@@ -13,6 +13,6 @@
 
 */
 
-console.log('hello!');
+console.log("hello!");
 
-console.error('hello!');
+console.error("hello!");

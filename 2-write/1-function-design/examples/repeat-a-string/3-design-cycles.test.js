@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /* 3. Design Cycles
 
@@ -39,7 +39,7 @@
 /* failed all the tests - always returned undefined
   repeated is declared and returnd, but never modified
 */
-const forLoopTry1 = (text = '', repetitions = 1) => {
+const forLoopTry1 = (text = "", repetitions = 1) => {
   let repeated;
   for (let i = 0; i < repetitions; i++) {
     text += text;
@@ -50,7 +50,7 @@ const forLoopTry1 = (text = '', repetitions = 1) => {
 /* failed all the tests
   repeated was initialized as undefined, so adding the text makes `undefinedtextext...`
 */
-const forLoopTry2 = (text = '', repetitions = 1) => {
+const forLoopTry2 = (text = "", repetitions = 1) => {
   // debugger;
   let repeated;
   for (let i = 0; i < repetitions; i++) {
@@ -60,8 +60,8 @@ const forLoopTry2 = (text = '', repetitions = 1) => {
 };
 
 // success! initializing repeated to empty string worked
-const forLoopTry3 = (text = '', repetitions = 1) => {
-  let repeated = '';
+const forLoopTry3 = (text = "", repetitions = 1) => {
+  let repeated = "";
   for (let i = 0; i < repetitions; i++) {
     repeated += text;
   }
@@ -74,7 +74,7 @@ const forLoopTry3 = (text = '', repetitions = 1) => {
   'asdf' -> 'asdfasdf' -> 'asdfasdfasdfasdf'
   it doubles with each time instead of being appended just once
 */
-const withoutExtraVariable = (text = '', repetitions = 1) => {
+const withoutExtraVariable = (text = "", repetitions = 1) => {
   // debugger;
   for (let i = 0; i < repetitions; i++) {
     text += text;
@@ -83,8 +83,8 @@ const withoutExtraVariable = (text = '', repetitions = 1) => {
 };
 
 // refactoring this strategy to a while loop
-const whileLoop = (text = '', repetitions = 1) => {
-  let repeated = '';
+const whileLoop = (text = "", repetitions = 1) => {
+  let repeated = "";
   let i = 0;
   while (i < repetitions) {
     repeated += text;
@@ -105,47 +105,47 @@ for (const solution of [
 ]) {
   // =============== test cases for this challenge ===============
 
-  describe(solution.name + ': repeating a string:', () => {
-    describe('default parameters', () => {
-      it('repeat once if no repetitions is passed', () => {
-        expect(solution('asdf')).toEqual('asdf');
+  describe(solution.name + ": repeating a string:", () => {
+    describe("default parameters", () => {
+      it("repeat once if no repetitions is passed", () => {
+        expect(solution("asdf")).toEqual("asdf");
       });
-      it('expect an empty string if no arguments are passed', () => {
-        expect(solution()).toEqual('');
+      it("expect an empty string if no arguments are passed", () => {
+        expect(solution()).toEqual("");
       });
     });
-    describe('an empty string', () => {
+    describe("an empty string", () => {
       it('repeat an empty string 0 times -> ""', () => {
-        expect(solution('', 0)).toEqual('');
+        expect(solution("", 0)).toEqual("");
       });
       it('repeat an empty string 10 times -> ""', () => {
-        expect(solution('', 10)).toEqual('');
+        expect(solution("", 10)).toEqual("");
       });
       it('repeat an empty string 100 times -> ""', () => {
-        expect(solution('', 100)).toEqual('');
+        expect(solution("", 100)).toEqual("");
       });
     });
-    describe('zero repetitions', () => {
+    describe("zero repetitions", () => {
       it('repeat "asdf" 0 times -> ""', () => {
-        expect(solution('asdf', 0)).toEqual('');
+        expect(solution("asdf", 0)).toEqual("");
       });
       it('repeat "tommywalk" 0 times -> ""', () => {
-        expect(solution('tommywalk', 0)).toEqual('');
+        expect(solution("tommywalk", 0)).toEqual("");
       });
     });
-    describe('standard use cases', () => {
-      it('repeating a longer phrase 3 times', () => {
-        expect(solution('go to school', 3)).toEqual(
-          'go to schoolgo to schoolgo to school'
+    describe("standard use cases", () => {
+      it("repeating a longer phrase 3 times", () => {
+        expect(solution("go to school", 3)).toEqual(
+          "go to schoolgo to schoolgo to school"
         );
       });
-      it('repeating a phrase with punctuation', () => {
+      it("repeating a phrase with punctuation", () => {
         expect(solution('"Go!", said Dr. Seuss?', 2)).toEqual(
           '"Go!", said Dr. Seuss?"Go!", said Dr. Seuss?'
         );
       });
-      it('a string with special characters can be repeated', () => {
-        expect(solution('\\ \n \t s', 2)).toEqual('\\ \n \t s\\ \n \t s');
+      it("a string with special characters can be repeated", () => {
+        expect(solution("\\ \n \t s", 2)).toEqual("\\ \n \t s\\ \n \t s");
       });
     });
   });

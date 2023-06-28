@@ -4,7 +4,7 @@
 
 function addArrays(array1, array2) {
   if (array1.length !== array2.length) {
-    throw new Error('Array lengths not same size');
+    throw new Error("Array lengths not same size");
   }
 
   return array1.reduce((arr, num, i) => {

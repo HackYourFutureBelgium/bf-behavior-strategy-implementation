@@ -2,11 +2,11 @@ export const solution = (max = 0) => {
   const result = [];
   for (let i = 0; i < max; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-      result.push('FizzBuzz');
+      result.push("FizzBuzz");
     } else if (i % 3 === 0) {
-      result.push('Fizz');
+      result.push("Fizz");
     } else if (i % 5 === 0) {
-      result.push('Buzz');
+      result.push("Buzz");
     } else {
       result.push(i);
     }

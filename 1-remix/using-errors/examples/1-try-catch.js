@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /* try/catch blocks
 
@@ -15,13 +15,13 @@
 
 */
 
-const notAFunction = 'not a function';
+const notAFunction = "not a function";
 
 try {
   // trying to call the string will throw an error
   notAFunction();
   // nothing in the try block will be executed after the error
-  console.log('never happens, error!');
+  console.log("never happens, error!");
 } catch (err) {
   // the error is passed as an argument to the catch block
   // you can do whatever you like in the catch block

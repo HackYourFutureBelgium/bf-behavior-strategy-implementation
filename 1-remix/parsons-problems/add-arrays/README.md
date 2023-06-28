@@ -16,7 +16,7 @@ Expect array input to either contain numbers or strings only
 The function should also allow for concatenating string
 
 ```js
-addArrays(['a'], ['b']); // => ["ab"]
+addArrays(["a"], ["b"]); // => ["ab"]
 ```
 
 ## Unit Tests
@@ -39,7 +39,7 @@ let randomArray = function (array) {
 };
 
 function mySol(array1, array2) {
-  if (array1.length != array2.length) throw 'not same length';
+  if (array1.length != array2.length) throw "not same length";
   let array3 = [];
   for (let i = 0; i < array1.length; i++) {
     array3.push(array1[i] + array2[i]);
@@ -47,43 +47,43 @@ function mySol(array1, array2) {
   return array3;
 }
 
-describe('testing addArrays()', function () {
-  it('should properly handle example test case', function () {
+describe("testing addArrays()", function () {
+  it("should properly handle example test case", function () {
     Test.assertSimilar(addArrays([1, 2], [4, 5]), [5, 7]);
     Test.assertSimilar(
-      addArrays(['a'], ['b']),
-      ['ab'],
-      'Should work with strings as well'
+      addArrays(["a"], ["b"]),
+      ["ab"],
+      "Should work with strings as well"
     );
   });
 
-  it('should raise error with improper array length input', function () {
+  it("should raise error with improper array length input", function () {
     Test.expectError(
-      'Should raise an error when arguments are of varying length',
+      "Should raise an error when arguments are of varying length",
       function () {
         addArrays([1, 2, 3], [4, 5]);
       }
     );
     Test.expectError(
-      'Should raise an error when arguments are of varying length',
+      "Should raise an error when arguments are of varying length",
       function () {
         addArrays([1], [4, 5]);
       }
     );
   });
 
-  it('should accept empty arrays', function () {
+  it("should accept empty arrays", function () {
     Test.assertSimilar(
       addArrays([], []),
       [],
-      'Should allow for empty arrays as input'
+      "Should allow for empty arrays as input"
     );
     Test.expectNoError(function () {
       addArrays([], []);
     });
   });
 
-  it('should properly handle random arrays of integers', function () {
+  it("should properly handle random arrays of integers", function () {
     let input1, input2, answer, output;
     let counter = 10;
     while (counter > 0) {
@@ -96,34 +96,34 @@ describe('testing addArrays()', function () {
     }
   });
 
-  it('should properly handle random arrays of strings', function () {
+  it("should properly handle random arrays of strings", function () {
     let letters = [
-      'a',
-      'b',
-      'c',
-      'd',
-      'e',
-      'f',
-      'g',
-      'h',
-      'i',
-      'j',
-      'k',
-      'l',
-      'm',
-      'n',
-      'o',
-      'p',
-      'q',
-      'r',
-      's',
-      't',
-      'u',
-      'v',
-      'w',
-      'x',
-      'y',
-      'z',
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "q",
+      "r",
+      "s",
+      "t",
+      "u",
+      "v",
+      "w",
+      "x",
+      "y",
+      "z",
     ];
     let input1, input2, answer, output;
     let counter = 10;

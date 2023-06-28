@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /* throw new Error()
 
@@ -12,8 +12,8 @@
 */
 
 try {
-  throw new Error('magic');
-  console.log('never happens!');
+  throw new Error("magic");
+  console.log("never happens!");
 } catch (err) {
   console.error(err);
 }

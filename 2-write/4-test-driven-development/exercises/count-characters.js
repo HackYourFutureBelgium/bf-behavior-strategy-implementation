@@ -13,4 +13,4 @@
  * countCharacters('hiiii'); // { h: 1, i: 4 }
  *
  */
-export const countCharacters = (text = '') => {};
+export const countCharacters = (text = "") => {};

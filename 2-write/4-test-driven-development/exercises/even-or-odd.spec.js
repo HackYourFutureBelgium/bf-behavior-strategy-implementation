@@ -1,3 +1,3 @@
-import { evenOrOdd } from './even-or-odd.js';
+import { evenOrOdd } from "./even-or-odd.js";
 
-describe('', () => {});
+describe("", () => {});

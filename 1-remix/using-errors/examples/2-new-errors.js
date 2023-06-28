@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /* new Error()
 
@@ -11,17 +11,17 @@
 
 */
 
-const newError1 = new Error('hello world!');
+const newError1 = new Error("hello world!");
 console.log(newError1.name);
 console.log(newError1.message);
 console.error(newError1);
 
-const newTypeError1 = new TypeError('something is not a something');
+const newTypeError1 = new TypeError("something is not a something");
 console.log(newTypeError1.name);
 console.log(newTypeError1.message);
 console.error(newTypeError1);
 
-const newRangeError1 = new RangeError('loopGuard_5 exceeded 15 iterations');
+const newRangeError1 = new RangeError("loopGuard_5 exceeded 15 iterations");
 console.log(newRangeError1.name);
 console.log(newRangeError1.message);
 console.error(newRangeError1);

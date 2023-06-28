@@ -1,3 +1,3 @@
-import { timeInMilliseconds } from './time-in-milliseconds.js';
+import { timeInMilliseconds } from "./time-in-milliseconds.js";
 
-describe('', () => {});
+describe("", () => {});

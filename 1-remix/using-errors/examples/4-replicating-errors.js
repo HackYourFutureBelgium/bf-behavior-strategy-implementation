@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /* Replicate Errors
 
@@ -13,7 +13,7 @@
 
 */
 
-console.log('- broken JS -');
+console.log("- broken JS -");
 try {
   const x = true;
   x = false;
@@ -21,15 +21,15 @@ try {
   console.error(err);
 }
 
-console.log('- throw new -');
+console.log("- throw new -");
 try {
-  throw new TypeError('Assignment to constant variable.');
+  throw new TypeError("Assignment to constant variable.");
 } catch (err) {
   console.error(err);
 
-  console.assert(err.name === 'TypeError', 'name fail');
+  console.assert(err.name === "TypeError", "name fail");
   console.assert(
-    err.message === 'Assignment to constant variable.',
-    'message fail',
+    err.message === "Assignment to constant variable.",
+    "message fail"
   );
 }

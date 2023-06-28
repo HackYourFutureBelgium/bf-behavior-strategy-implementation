@@ -12,4 +12,4 @@
  *
  * reverseWords('hello world!'); // 'olleh dlrow!'
  */
-export const reverseWords = (text = '') => {};
+export const reverseWords = (text = "") => {};

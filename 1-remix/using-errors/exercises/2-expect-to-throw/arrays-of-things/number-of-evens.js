@@ -1,7 +1,7 @@
 // #todo
 
 // you can use this to check the argument
-import { isArrayOfNumbers } from './is-array-of-numbers.js';
+import { isArrayOfNumbers } from "./is-array-of-numbers.js";
 
 /**
  *

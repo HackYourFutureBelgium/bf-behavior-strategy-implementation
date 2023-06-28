@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /**
  * builds an array counting down from `start` to 0
@@ -13,14 +13,14 @@
 
 for (const solution of [secretSolution]) {
   // the main test suite for the function
-  describe(solution.name + ': counts down to 0', () => {
-    it('default parameter is 0 -> [0]', () => {
+  describe(solution.name + ": counts down to 0", () => {
+    it("default parameter is 0 -> [0]", () => {
       expect(solution()).toEqual([0]);
     });
-    it('0 -> [0]', () => {
+    it("0 -> [0]", () => {
       expect(solution(0)).toEqual([0]);
     });
-    it('1 -> [1, 0]', () => {
+    it("1 -> [1, 0]", () => {
       expect(solution(1)).toEqual([1, 0]);
     });
     // write at least 5 more tests ...

@@ -1,3 +1,3 @@
-import { diffArrays } from './diff-arrays.js';
+import { diffArrays } from "./diff-arrays.js";
 
-describe('', () => {});
+describe("", () => {});

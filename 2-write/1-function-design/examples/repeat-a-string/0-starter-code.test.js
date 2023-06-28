@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /* 0. Starter Code
 
@@ -30,9 +30,9 @@
 for (const solution of [secretSolution]) {
   // =============== test cases for this challenge ===============
 
-  describe(solution.name + ': _', () => {
-    describe('_', () => {
-      it('_', () => {});
+  describe(solution.name + ": _", () => {
+    describe("_", () => {
+      it("_", () => {});
     });
   });
 }

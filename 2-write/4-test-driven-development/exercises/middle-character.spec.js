@@ -1,3 +1,3 @@
-import { middleCharacter } from './middle-character.js';
+import { middleCharacter } from "./middle-character.js";
 
-describe('', () => {});
+describe("", () => {});

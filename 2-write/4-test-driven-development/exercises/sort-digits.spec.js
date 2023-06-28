@@ -1,3 +1,3 @@
-import { sortDigits } from './sort-digits.js';
+import { sortDigits } from "./sort-digits.js";
 
-describe('', () => {});
+describe("", () => {});

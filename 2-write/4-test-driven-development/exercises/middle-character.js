@@ -5,4 +5,4 @@
  * @param {string} [text=''] - Find the middle character(s) of this string.
  * @returns {string} The middle character(s) in the text.
  */
-export const middleCharacter = (text = '') => {};
+export const middleCharacter = (text = "") => {};

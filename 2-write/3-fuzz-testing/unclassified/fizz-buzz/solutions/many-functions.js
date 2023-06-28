@@ -5,11 +5,11 @@ export const manyFunctions = (max = 0) => {
 
   const FizzBuzzOrNumber = (num) => {
     if (_) {
-      return 'FizzBuzz';
+      return "FizzBuzz";
     } else if (_) {
-      return 'Fizz';
+      return "Fizz";
     } else if (_) {
-      return 'Buzz';
+      return "Buzz";
     } else {
       return num;
     }

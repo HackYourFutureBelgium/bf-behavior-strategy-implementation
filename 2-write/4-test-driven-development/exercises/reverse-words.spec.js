@@ -1,3 +1,3 @@
-import { reverseWords } from './reverse-words.js';
+import { reverseWords } from "./reverse-words.js";
 
-describe('', () => {});
+describe("", () => {});

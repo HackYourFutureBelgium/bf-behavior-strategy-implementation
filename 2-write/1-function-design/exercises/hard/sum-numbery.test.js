@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /**
  * sums all numbery strings in an array of strings
@@ -30,9 +30,9 @@ for (const solution of [
   secretSolution,
   // mapFilterReduce,
 ]) {
-  describe(solution.name + ': _', () => {
-    describe('_', () => {
-      it('_', () => {});
+  describe(solution.name + ": _", () => {
+    describe("_", () => {
+      it("_", () => {});
     });
   });
 }

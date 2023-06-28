@@ -1,6 +1,6 @@
 // #todo
 
-'use strict';
+"use strict";
 
 /**
  * converts two boolean values into a binary string
@@ -19,20 +19,20 @@
 for (const solution of [secretSolution]) {
   // this function only 4 possible combinations of arguments
   //  it's possible test them all and have 100% confidence in the function
-  describe(solution.name + ': converts two booleans to binary', () => {
+  describe(solution.name + ": converts two booleans to binary", () => {
     it('true, true --> "11"', () => {
       const actual = solution(_, _);
       expect(actual).toEqual(_);
     });
     it('true, false --> "10"', () => {
       const actual = _;
-      expect(actual).toEqual('10');
+      expect(actual).toEqual("10");
     });
     it('false, true --> "01"', () => {
       const actual = _;
       _;
     });
-    it('_', () => {});
+    it("_", () => {});
   });
 }
 

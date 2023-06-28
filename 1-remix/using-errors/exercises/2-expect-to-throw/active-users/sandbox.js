@@ -6,7 +6,7 @@ const people = [
   { userName: "b", name: "", active: false },
   { userName: "c", name: "", active: false },
   { userName: "e", name: "", active: true },
-]
+];
 
 const found = findActiveUsers(people);
 console.log("found:", found);

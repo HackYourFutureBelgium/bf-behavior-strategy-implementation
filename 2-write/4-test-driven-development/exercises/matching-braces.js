@@ -29,4 +29,4 @@
  * matchingBraces('()[]{}'); // true
  *
  */
-export const matchingBraces = (text = '') => {};
+export const matchingBraces = (text = "") => {};

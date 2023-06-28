@@ -1,3 +1,3 @@
-import { countCharacters } from './count-characters.js';
+import { countCharacters } from "./count-characters.js";
 
-describe('', () => {});
+describe("", () => {});

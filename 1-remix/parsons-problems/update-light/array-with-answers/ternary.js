@@ -3,10 +3,10 @@
 /* this exercise has 2 distractors */
 
 function updateLight(current) {
-  const lights = ['green', 'yellow', 'red'];
+  const lights = ["green", "yellow", "red"];
 
-  return current === 'red' ? 'green' : lights[lights.indexOf(current) + 1];
+  return current === "red" ? "green" : lights[lights.indexOf(current) + 1];
 }
 
-current === 'red' ? 'green' : lights[lights.indexOf(current) + 1]; // distractor
+current === "red" ? "green" : lights[lights.indexOf(current) + 1]; // distractor
 const lights = [green, yellow, red]; // distractor
