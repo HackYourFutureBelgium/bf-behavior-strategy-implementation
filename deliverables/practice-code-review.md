@@ -1,6 +1,6 @@
 # Practice Code Review
 
-> [practice-code-review](https://github.com/hackyourfuturebelgium/practice-code-review) -
+> [practice-code-review](https://github.com/HackYourFutureBelgium/bf-practice-code-review) -
 > a group exercise to practice writing clean and complete functions
 
 Your goal isn't to solve as many problems as possible, it's to solve problems as
@@ -12,7 +12,7 @@ the way of collaboration! Once you get used to it you will see that clean and
 consistent code saves you lots of time in the long run.
 
 One person in your group should fork
-[practice-code-review](https://github.com/hackyourfuturebelgium/practice-code-review),
+[practice-code-review](https://github.com/HackYourFutureBelgium/bf-practice-code-review),
 everyone in your group will work from that repository. There is no need to have
 a plan or a development strategy since you are not building a project - each
 pull request will be for a stand-alone solution. Practicing code review now will

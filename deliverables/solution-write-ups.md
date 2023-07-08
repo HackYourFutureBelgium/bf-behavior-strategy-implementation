@@ -1,6 +1,6 @@
 # Solution Write-Ups
 
-> [solution write-ups](https://github.com/HackYourFutureBelgium/solution-write-ups) -
+> [solution write-ups](https://github.com/HackYourFutureBelgium/bf-solution-write-ups) -
 > analyze other people's solutions to code challenges
 
 The main objective of these exercises is practicing how to learn from code, to
