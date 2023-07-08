@@ -3,9 +3,9 @@
 /* this exercise has 1 distractors */
 
 function updateLight(current) {
-  const lights = ["green", "yellow", "red"];
-  const newLightIndex = lights.indexOf(current) + 1;
-  return newLightIndex < 3 ? lights[newLightIndex] : lights[0];
+    const lights = ['green', 'yellow', 'red'];
+    const newLightIndex = lights.indexOf(current) + 1;
+    return newLightIndex < 3 ? lights[newLightIndex] : lights[0];
 }
 
 return newLightIndex < 3 ? lights[0] : lights[newLightIndex]; // distractor

@@ -1,6 +1,6 @@
 // #todo
 
-"use strict";
+'use strict';
 
 /* 0. Starter Code
 
@@ -28,13 +28,13 @@
 // =============== a for-of loop to control which solution(s) are tested ===============
 
 for (const solution of [secretSolution]) {
-  // =============== test cases for this challenge ===============
+    // =============== test cases for this challenge ===============
 
-  describe(solution.name + ": _", () => {
-    describe("_", () => {
-      it("_", () => {});
+    describe(solution.name + ': _', () => {
+        describe('_', () => {
+            it('_', () => {});
+        });
     });
-  });
 }
 
 // =============== a minified solution you can use to test your test cases ===============

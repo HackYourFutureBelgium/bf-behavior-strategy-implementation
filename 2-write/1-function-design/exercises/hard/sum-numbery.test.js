@@ -1,6 +1,6 @@
 // #todo
 
-"use strict";
+'use strict';
 
 /**
  * sums all numbery strings in an array of strings
@@ -13,28 +13,28 @@
 // -------- your solutions --------
 
 const mapFilterReduce = (arr) => {
-  // these work, you need to pass them to the right array methods
-  const isNotNaN = (entry) => !Number.isNaN(entry);
-  const sumNumbers = (acc, next) => acc + next;
-  const castToNumber = (entry) => Number(entry);
+    // these work, you need to pass them to the right array methods
+    const isNotNaN = (entry) => !Number.isNaN(entry);
+    const sumNumbers = (acc, next) => acc + next;
+    const castToNumber = (entry) => Number(entry);
 
-  // fill in the array methods and pass in the correct logic
-  const sumOfNumberies = arr._(_)._(_)._(_, _);
+    // fill in the array methods and pass in the correct logic
+    const sumOfNumberies = arr._(_)._(_)._(_, _);
 
-  return sumOfNumberies;
+    return sumOfNumberies;
 };
 
 // -------- your solutions --------
 
 for (const solution of [
-  secretSolution,
-  // mapFilterReduce,
+    secretSolution,
+    // mapFilterReduce,
 ]) {
-  describe(solution.name + ": _", () => {
-    describe("_", () => {
-      it("_", () => {});
+    describe(solution.name + ': _', () => {
+        describe('_', () => {
+            it('_', () => {});
+        });
     });
-  });
 }
 
 // minified solution for testing your tests

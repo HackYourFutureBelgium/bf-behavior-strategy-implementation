@@ -8,42 +8,42 @@
  * @author https://github.com/andrewborisov/javascript-practice/blob/master/objects/solutions/09-intersection.js
  */
 export const solution = (firstObj, secondObj) => {
-  const firstObjKeys = Object.keys(firstObj);
+    const firstObjKeys = Object.keys(firstObj);
 
-  return firstObjKeys.reduce((acc = {}, key) => {
-    if (firstObj[key] === secondObj[key]) {
-      acc = {
-        ...acc,
-        [key]: firstObj[key],
-      };
-    }
+    return firstObjKeys.reduce((acc = {}, key) => {
+        if (firstObj[key] === secondObj[key]) {
+            acc = {
+                ...acc,
+                [key]: firstObj[key],
+            };
+        }
 
-    return acc;
-  }, {});
+        return acc;
+    }, {});
 };
 
 export const args = (chance) => {
-  const first = {};
-  const second = {};
+    const first = {};
+    const second = {};
 
-  const maxKeys = Math.floor(Math.random() * 15);
-  for (let i = 0; i < maxKeys; i++) {
-    const key = chance.word();
+    const maxKeys = Math.floor(Math.random() * 15);
+    for (let i = 0; i < maxKeys; i++) {
+        const key = chance.word();
 
-    const value = chance.integer({ min: -999, max: 999 });
-    const rando = Math.random();
-    if (rando < 0.2) {
-      first[key] = value;
-    } else if (rando < 0.4) {
-      second[key] = value;
-    } else if (rando < 0.8) {
-      first[key] = value;
-      second[key] = chance.integer({ min: -999, max: 999 });
-    } else {
-      first[key] = value;
-      second[key] = value;
+        const value = chance.integer({ min: -999, max: 999 });
+        const rando = Math.random();
+        if (rando < 0.2) {
+            first[key] = value;
+        } else if (rando < 0.4) {
+            second[key] = value;
+        } else if (rando < 0.8) {
+            first[key] = value;
+            second[key] = chance.integer({ min: -999, max: 999 });
+        } else {
+            first[key] = value;
+            second[key] = value;
+        }
     }
-  }
 
-  return [first, second];
+    return [first, second];
 };

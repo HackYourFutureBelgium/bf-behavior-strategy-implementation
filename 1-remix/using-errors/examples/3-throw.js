@@ -1,6 +1,6 @@
 // #todo
 
-"use strict";
+'use strict';
 
 /* throw new Error()
 
@@ -12,15 +12,15 @@
 */
 
 try {
-  throw new Error("magic");
-  console.log("never happens!");
+    throw new Error('magic');
+    console.log('never happens!');
 } catch (err) {
-  console.error(err);
+    console.error(err);
 }
 
 // you can throw anything you want, it's just not common practice
 try {
-  throw 4;
+    throw 4;
 } catch (number) {
-  console.error(number);
+    console.error(number);
 }

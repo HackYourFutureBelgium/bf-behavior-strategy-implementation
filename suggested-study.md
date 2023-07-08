@@ -7,16 +7,22 @@ Are we missing a great set of exercises? Send a PR!
 ## Snippets and Examples
 
 - [30secondsofcode](https://www.30secondsofcode.org/js)
-- javascripttutorial.net: [arrays](https://www.javascripttutorial.net/array/), [objects](https://www.javascripttutorial.net/object/)
+- javascripttutorial.net: [arrays](https://www.javascripttutorial.net/array/),
+  [objects](https://www.javascripttutorial.net/object/)
 - [minutes-of-javascript](https://github.com/olivierloverde/minutes-of-javascript)
 
 ## Arrays of Objects
 
-- [short, sweet, with a loop](https://www.youtube.com/watch?v=ivNWS9s7vhA) (video)
-- [Sorting an Array of Objects](https://www.youtube.com/watch?v=0d76_2sksWY) (video)
-- [another Sorting](https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/) (video+article)
-- [Search from Array of Objects](https://www.youtube.com/watch?v=US63Q6AL0GI) (video)
-- [Create, Update and Loop](https://www.freecodecamp.org/news/javascript-array-of-objects-tutorial-how-to-create-update-and-loop-through-objects-using-js-array-methods/) (article)
+- [short, sweet, with a loop](https://www.youtube.com/watch?v=ivNWS9s7vhA)
+  (video)
+- [Sorting an Array of Objects](https://www.youtube.com/watch?v=0d76_2sksWY)
+  (video)
+- [another Sorting](https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/)
+  (video+article)
+- [Search from Array of Objects](https://www.youtube.com/watch?v=US63Q6AL0GI)
+  (video)
+- [Create, Update and Loop](https://www.freecodecamp.org/news/javascript-array-of-objects-tutorial-how-to-create-update-and-loop-through-objects-using-js-array-methods/)
+  (article)
 - [The Coding Train](https://www.youtube.com/watch?v=fBqaA7zRO58) (video)
 
 ## More Practice
@@ -57,26 +63,37 @@ there's many great repos of exercises out there, you just need to find them!
 
 ## Code Quality
 
-- [JavaScript: The Better Parts](https://www.youtube.com/watch?v=_EF-FO63MXs) (first 11 minutes)
+- [JavaScript: The Better Parts](https://www.youtube.com/watch?v=_EF-FO63MXs)
+  (first 11 minutes)
 - **Code Style**
   - [what is programming style?](https://en.wikipedia.org/wiki/Programming_style)
-  - why is style important? [stackoverflow](https://stackoverflow.com/questions/127916/is-programming-style-important-how-important), [Nicholas C. Zakas](https://www.smashingmagazine.com/2012/10/why-coding-style-matters/)
+  - why is style important?
+    [stackoverflow](https://stackoverflow.com/questions/127916/is-programming-style-important-how-important),
+    [Nicholas C. Zakas](https://www.smashingmagazine.com/2012/10/why-coding-style-matters/)
   - [what is a style guide?](https://www.youtube.com/watch?v=UQd-50Pew94)
   - [airbnb style guide](https://github.com/airbnb/javascript)
 - **Formatting**
   - [prettier.io](https://prettier.io)
 - **Linting**
-  - what is linting? [Envato tuts+](https://www.youtube.com/watch?v=rrzC1RbMLiQ), [ictshore](https://www.ictshore.com/javascript/what-is-javascript-linting/), [(static analysis?)](https://deepsource.io/blog/static-analysis-javascript/)
-  - Why is linting important? [freecodecamp](https://www.freecodecamp.org/news/what-is-linting-and-how-can-it-save-you-time/), [ibuildmvps](https://ibuildmvps.com/blog/the-importance-of-linting/), [quora](https://www.quora.com/What-is-the-purpose-of-a-code-style-linting-tool?share=1)
+  - what is linting?
+    [Envato tuts+](https://www.youtube.com/watch?v=rrzC1RbMLiQ),
+    [ictshore](https://www.ictshore.com/javascript/what-is-javascript-linting/),
+    [(static analysis?)](https://deepsource.io/blog/static-analysis-javascript/)
+  - Why is linting important?
+    [freecodecamp](https://www.freecodecamp.org/news/what-is-linting-and-how-can-it-save-you-time/),
+    [ibuildmvps](https://ibuildmvps.com/blog/the-importance-of-linting/),
+    [quora](https://www.quora.com/What-is-the-purpose-of-a-code-style-linting-tool?share=1)
   - [ESLint sandbox](https://eslint.org/demo/)
   - [ESLint rules](https://eslint.org/docs/rules/)
   - [Linting rules for JSDocs](https://github.com/Extersky/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules)
 - **in VSCode**
-  - remember all those extensions you installed in the precourse? now they make more sense : )
+  - remember all those extensions you installed in the precourse? now they make
+    more sense : )
 
 And last, but not least: **Code Review**:
 
-- What? Why? [Wikipedia](https://en.wikipedia.org/wiki/Code_review), [Alex](https://dzone.com/articles/what-is-code-review-and-why-do-you-need-it)
+- What? Why? [Wikipedia](https://en.wikipedia.org/wiki/Code_review),
+  [Alex](https://dzone.com/articles/what-is-code-review-and-why-do-you-need-it)
 - [How to do code reviews like a human](https://www.youtube.com/watch?v=0t4_MfHgb_A)
 - [The science of code reviews](https://www.youtube.com/watch?v=EyL7mqwpZhk)
 - [Code review on GitHub](https://www.youtube.com/watch?v=HW0RPaJqm4g)
@@ -95,9 +112,12 @@ And last, but not least: **Code Review**:
 You can get by without them, but when they're helpful they're very helpful.
 
 - Interactives
-  - [regex.guide](https://regex.guide): learn to build regular expressions one question at a time
-  - [regexer.com](https://regexr.com): realtime regex with a visual breakdown of your regular expression
-  - [Regex Crossword](https://regexcrossword.com): games to learn regular expressions
+  - [regex.guide](https://regex.guide): learn to build regular expressions one
+    question at a time
+  - [regexer.com](https://regexr.com): realtime regex with a visual breakdown of
+    your regular expression
+  - [Regex Crossword](https://regexcrossword.com): games to learn regular
+    expressions
 - References
 - [The Coding Train](https://shiffman.net/a2z/regex/)
 - [javascript.info](https://javascript.info/regular-expressions)

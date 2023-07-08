@@ -1,6 +1,6 @@
 // #todo
 
-"use strict";
+'use strict';
 
 /**
  * reverses a string and sets all the characters to upper or lower case
@@ -14,39 +14,39 @@
 // -------- your solutions --------
 
 for (const solution of [secretSolution]) {
-  describe(
-    solution.name + ": reverses a string then sets to lower or upper case",
-    () => {
-      describe("the function's default parameters", () => {
-        it("second parameter defaults to true", () => {
-          expect(solution("asdf")).toEqual("fdsa");
-        });
-        it("first parameter defaults to an empty string", () => {
-          expect(solution()).toEqual("");
-        });
-      });
-      // write the tests indicated by the comments
-      describe("when set to lower case", () => {
-        // when the text is an empty string
-        it(_, () => {
-          expect(solution(_, _)).toEqual(_);
-        });
-        // when the text is all upper case
-        // when the text is all lower case
-        // when the text is mixed upper and lower case
-        // when the text contains punctuation
-        // when the text contains numbers
-      });
-      describe("when set to upper case", () => {
-        // when the text is an empty string
-        // when the text is all upper case
-        // when the text is all lower case
-        // when the text is mixed upper and lower case
-        // when the text contains punctuation
-        // when the text contains numbers
-      });
-    }
-  );
+    describe(
+        solution.name + ': reverses a string then sets to lower or upper case',
+        () => {
+            describe("the function's default parameters", () => {
+                it('second parameter defaults to true', () => {
+                    expect(solution('asdf')).toEqual('fdsa');
+                });
+                it('first parameter defaults to an empty string', () => {
+                    expect(solution()).toEqual('');
+                });
+            });
+            // write the tests indicated by the comments
+            describe('when set to lower case', () => {
+                // when the text is an empty string
+                it(_, () => {
+                    expect(solution(_, _)).toEqual(_);
+                });
+                // when the text is all upper case
+                // when the text is all lower case
+                // when the text is mixed upper and lower case
+                // when the text contains punctuation
+                // when the text contains numbers
+            });
+            describe('when set to upper case', () => {
+                // when the text is an empty string
+                // when the text is all upper case
+                // when the text is all lower case
+                // when the text is mixed upper and lower case
+                // when the text contains punctuation
+                // when the text contains numbers
+            });
+        },
+    );
 }
 
 // minified solution for testing your tests

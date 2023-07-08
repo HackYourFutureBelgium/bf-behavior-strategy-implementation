@@ -1,6 +1,6 @@
 // #todo
 
-"use strict";
+'use strict';
 
 /* 1. Write Test Cases
 
@@ -28,52 +28,54 @@
 // =============== a for-of loop to control which solution(s) are tested ===============
 
 for (const solution of [secretSolution]) {
-  // =============== test cases for this challenge ===============
+    // =============== test cases for this challenge ===============
 
-  describe(solution.name + ": repeating a string:", () => {
-    describe("default parameters", () => {
-      it("repeat once if no repetitions is passed", () => {
-        expect(solution("asdf")).toEqual("asdf");
-      });
-      it("expect an empty string if no arguments are passed", () => {
-        expect(solution()).toEqual("");
-      });
+    describe(solution.name + ': repeating a string:', () => {
+        describe('default parameters', () => {
+            it('repeat once if no repetitions is passed', () => {
+                expect(solution('asdf')).toEqual('asdf');
+            });
+            it('expect an empty string if no arguments are passed', () => {
+                expect(solution()).toEqual('');
+            });
+        });
+        describe('an empty string', () => {
+            it('repeat an empty string 0 times -> ""', () => {
+                expect(solution('', 0)).toEqual('');
+            });
+            it('repeat an empty string 10 times -> ""', () => {
+                expect(solution('', 10)).toEqual('');
+            });
+            it('repeat an empty string 100 times -> ""', () => {
+                expect(solution('', 100)).toEqual('');
+            });
+        });
+        describe('zero repetitions', () => {
+            it('repeat "asdf" 0 times -> ""', () => {
+                expect(solution('asdf', 0)).toEqual('');
+            });
+            it('repeat "tommywalk" 0 times -> ""', () => {
+                expect(solution('tommywalk', 0)).toEqual('');
+            });
+        });
+        describe('standard use cases', () => {
+            it('repeating a longer phrase 3 times', () => {
+                expect(solution('go to school', 3)).toEqual(
+                    'go to schoolgo to schoolgo to school',
+                );
+            });
+            it('repeating a phrase with punctuation', () => {
+                expect(solution('"Go!", said Dr. Seuss?', 2)).toEqual(
+                    '"Go!", said Dr. Seuss?"Go!", said Dr. Seuss?',
+                );
+            });
+            it('a string with special characters can be repeated', () => {
+                expect(solution('\\ \n \t s', 2)).toEqual(
+                    '\\ \n \t s\\ \n \t s',
+                );
+            });
+        });
     });
-    describe("an empty string", () => {
-      it('repeat an empty string 0 times -> ""', () => {
-        expect(solution("", 0)).toEqual("");
-      });
-      it('repeat an empty string 10 times -> ""', () => {
-        expect(solution("", 10)).toEqual("");
-      });
-      it('repeat an empty string 100 times -> ""', () => {
-        expect(solution("", 100)).toEqual("");
-      });
-    });
-    describe("zero repetitions", () => {
-      it('repeat "asdf" 0 times -> ""', () => {
-        expect(solution("asdf", 0)).toEqual("");
-      });
-      it('repeat "tommywalk" 0 times -> ""', () => {
-        expect(solution("tommywalk", 0)).toEqual("");
-      });
-    });
-    describe("standard use cases", () => {
-      it("repeating a longer phrase 3 times", () => {
-        expect(solution("go to school", 3)).toEqual(
-          "go to schoolgo to schoolgo to school"
-        );
-      });
-      it("repeating a phrase with punctuation", () => {
-        expect(solution('"Go!", said Dr. Seuss?', 2)).toEqual(
-          '"Go!", said Dr. Seuss?"Go!", said Dr. Seuss?'
-        );
-      });
-      it("a string with special characters can be repeated", () => {
-        expect(solution("\\ \n \t s", 2)).toEqual("\\ \n \t s\\ \n \t s");
-      });
-    });
-  });
 }
 
 // =============== a minified solution you can use to test your test cases ===============

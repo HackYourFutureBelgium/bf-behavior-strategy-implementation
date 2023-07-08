@@ -3,15 +3,15 @@
 /* this exercise has 0 distractors */
 
 function addArrays(array1, array2) {
-  var len = array1.length;
+    var len = array1.length;
 
-  if (len === array2.length) {
-    for (var i = 0; i < len; i++) {
-      array1[i] += array2[i];
+    if (len === array2.length) {
+        for (var i = 0; i < len; i++) {
+            array1[i] += array2[i];
+        }
+
+        return array1;
     }
 
-    return array1;
-  }
-
-  throw new Error();
+    throw new Error();
 }

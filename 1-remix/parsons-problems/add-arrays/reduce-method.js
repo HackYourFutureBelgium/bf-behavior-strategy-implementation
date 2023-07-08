@@ -3,13 +3,13 @@
 /* this exercise has 0 distractors */
 
 function addArrays(array1, array2) {
-  if (array1.length !== array2.length) {
-    throw new Error("Array lengths not same size");
-  }
+    if (array1.length !== array2.length) {
+        throw new Error('Array lengths not same size');
+    }
 
-  return array1.reduce((arr, num, i) => {
-    arr.push(num + array2[i]);
+    return array1.reduce((arr, num, i) => {
+        arr.push(num + array2[i]);
 
-    return arr;
-  }, []);
+        return arr;
+    }, []);
 }

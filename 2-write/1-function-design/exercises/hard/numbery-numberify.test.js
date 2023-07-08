@@ -1,6 +1,6 @@
 // #todo
 
-"use strict";
+'use strict';
 
 /**
  * takes an array of strings and returns a new array of numbers
@@ -15,11 +15,11 @@
 // -------- your solutions --------
 
 for (const solution of [secretSolution]) {
-  describe(solution.name + ": _", () => {
-    describe("_", () => {
-      it("_", () => {});
+    describe(solution.name + ': _', () => {
+        describe('_', () => {
+            it('_', () => {});
+        });
     });
-  });
 }
 
 // minified solution for testing your tests

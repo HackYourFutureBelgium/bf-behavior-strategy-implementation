@@ -1,6 +1,6 @@
 // #todo
 
-"use strict";
+'use strict';
 
 /**
  * removes all odd numbers from an array of numbers
@@ -12,11 +12,11 @@
 // -------- your solutions --------
 
 for (const solution of [secretSolution]) {
-  describe(solution.name + ": _", () => {
-    describe("_", () => {
-      it("_", () => {});
+    describe(solution.name + ': _', () => {
+        describe('_', () => {
+            it('_', () => {});
+        });
     });
-  });
 }
 
 // minified solution for testing your tests

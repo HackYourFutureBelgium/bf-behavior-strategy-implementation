@@ -1,6 +1,6 @@
 // your code
 
-import { findActiveUsers } from "./find-active-users.js";
+import { findActiveUsers } from './find-active-users.js';
 
 /**
  * returns an array of all active user names
@@ -8,6 +8,6 @@ import { findActiveUsers } from "./find-active-users.js";
  * @returns {string[]} an array of user names
  */
 export const listActiveUsers = (users) => {
-  const activeUsers = findActiveUsers(users);
-  return activeUsers.map((user) => user.userName);
+    const activeUsers = findActiveUsers(users);
+    return activeUsers.map((user) => user.userName);
 };

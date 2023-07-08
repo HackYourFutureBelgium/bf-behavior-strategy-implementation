@@ -1,6 +1,6 @@
 // #todo
 
-"use strict";
+'use strict';
 
 /**
  * A function that takes an array of strings, reverses it, and combines the strings
@@ -12,11 +12,11 @@
 // -------- your solutions --------
 
 for (const solution of [secretSolution]) {
-  describe(solution.name + ": _", () => {
-    describe("_", () => {
-      it("_", () => {});
+    describe(solution.name + ': _', () => {
+        describe('_', () => {
+            it('_', () => {});
+        });
     });
-  });
 }
 
 // minified solution for testing your tests
