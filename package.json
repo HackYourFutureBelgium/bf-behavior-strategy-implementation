@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest --silent ",
-    "lint:js": "eslint --format=codeframe",
+    "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
     "format": "prettier --write ./"
   },
   "author": "HackYourFutureBelgium",
@@ -19,10 +19,13 @@
   },
   "homepage": "https://github.com/HackYourFutureBelgium/behavior-strategy-implementation#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/eslint-parser": "^7.22.7",
     "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "@babel/preset-env": "^7.22.7",
     "@ls-lint/ls-lint": "^1.10.0",
     "cspell": "^5.6.6",
-    "eslint": "^7.31.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsdoc": "^32.3.1",
