@@ -559,6 +559,9 @@ These 4 columns may be helpful:
 
 ### Week1
 
+- [Day1](https://youtu.be/t5P_uwegFYA)
+- [Day2](https://youtu.be/iM79nq2xNhw)
+
 ### Week2
 
 </details>
