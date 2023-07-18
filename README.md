@@ -565,5 +565,5 @@ These 4 columns may be helpful:
 
 ### Week2
 
-- [Day1](https://youtu.be/x1UWrLVYKCM)
+- [Day7](https://youtu.be/x1UWrLVYKCM)
 </details>
