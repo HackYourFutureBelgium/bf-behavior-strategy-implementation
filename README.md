@@ -567,4 +567,6 @@ These 4 columns may be helpful:
 
 - [Day7](https://youtu.be/x1UWrLVYKCM)
 - [Day8](https://youtu.be/9Y0URHORUI8)
+- [Day9](https://youtu.be/TzTPgvIobIE)
+- [Day10](https://youtu.be/p2oTcNSdUa4)
 </details>
