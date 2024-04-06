@@ -7,12 +7,12 @@
 
 ### Deliverables 1
 
-3.[Solution Write-Ups](../deliverables/1-solution-write-ups.md)
+3. [Solution Write-Ups](../deliverables/1-solution-write-ups.md)
 
 ## Week 2
 
-3.[Code Review](./3-code-review.md)
+3. [Code Review](./3-code-review.md)
 
 ### Deliverables 2
 
-4.[Code Review](../deliverables/2-practice-code-review.md)
+4. [Code Review](../deliverables/2-practice-code-review.md)
