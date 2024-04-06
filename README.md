@@ -550,23 +550,3 @@ These 4 columns may be helpful:
 </details>
 
 [TOP](#behavior-strategy-implementation)
-
-## Class recording
-
-<details>
-<summary>expand/collapse</summary>
-<br>
-
-### Week1
-
-- [Day1](https://youtu.be/t5P_uwegFYA)
-- [Day2](https://youtu.be/iM79nq2xNhw)
-- [Day5](https://youtu.be/eyievXSQdIA)
-
-### Week2
-
-- [Day7](https://youtu.be/x1UWrLVYKCM)
-- [Day8](https://youtu.be/9Y0URHORUI8)
-- [Day9](https://youtu.be/TzTPgvIobIE)
-- [Day10](https://youtu.be/p2oTcNSdUa4)
-</details>
