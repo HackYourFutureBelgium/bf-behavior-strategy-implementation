@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 console.log('- broken JS -');
@@ -14,7 +12,7 @@ try {
 
 console.log('- throw new error -');
 try {
-    throw __;
+    throw new TypeError('userAge is not iterable');
 } catch (err) {
     console.error(err);
 
