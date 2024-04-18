@@ -1,4 +1,4 @@
-/* 3 extra lines */
+/* 4 extra lines */
 
 /* parsons-collapse: use built-in .js methods
 
@@ -10,9 +10,7 @@
 */
 
 const repeatString = (text = '', repetitions = 1) => {
-  const oneEntryPerRepetition = Array(repetitions).fill(text);
-  const repeatedString = oneEntryPerRepetition.join('');
-  return repeatedString;
+  return text.repeat(repetitions);
 };
 
 describe('repeatString', () => {

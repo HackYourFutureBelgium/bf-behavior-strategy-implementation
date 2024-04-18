@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 console.log('- broken JS -');
@@ -12,7 +10,7 @@ try {
 
 console.log('- throw new error -');
 try {
-    throw __;
+    throw new TypeError("Cannot read property 'length' of undefined");
 } catch (err) {
     console.error(err);
 
@@ -22,3 +20,4 @@ try {
         'message fail',
     );
 }
+
